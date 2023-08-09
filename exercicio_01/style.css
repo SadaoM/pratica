@@ -24,6 +24,7 @@ header > p {
 main{
     min-width: 280px;
     max-width: 800px;
+    height: 100vh;
     background-color: rgb(247, 230, 209);
     margin: auto;
 }
