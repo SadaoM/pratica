@@ -36,6 +36,12 @@ main > p {
     padding-right: 10px;
     text-align: justify;
 }
+main > p > a{
+    text-decoration: none;
+    font-weight: bold;
+    color: darkblue;
+    
+}
 .img1{
     padding: 10px;
     text-align: center;
