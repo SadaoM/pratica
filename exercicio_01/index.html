@@ -17,10 +17,21 @@
     <main>
         <h2>Paragrafo, link e imagem</h2>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio doloribus accusamus, voluptatem aperiam repudiandae facere fugit commodi omnis laboriosam, aliquid odit culpa ducimus cupiditate nisi non esse, itaque iure eos.</p><br>
-        <p>Neste parágrafo temos a inclusão de um <a href="segunda_pagina.html" target="_self" rel="next">link</a> para a segunda página do mesmo site e outro para um site externo</p><br>
+        <p>Neste parágrafo temos a inclusão de um <a href="segunda_pagina.html" target="_self" rel="next">link</a> para a segunda página do mesmo site e outro para um <a href="https://www.youtube.com/" target="_blank" rel="externo">site externo</a>.</p><br>
         <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nesciunt culpa saepe fugit corrupti quaerat cum quod rerum magnam placeat consectetur veritatis maxime itaque, ea blanditiis, molestiae tempore. Temporibus, incidunt praesentium?</p>
-        <img src="imagem/telapc.jpg" alt="imagem de uma tela de cmputador">
+
+        <div class="img1">
+            <picture>
+                <source media="(max-width:330px)" srcset="imagem/telapcpq.jpg">
+                <source media="(max-width:500px)" srcset="imagem/telapcmd.jpg">
+                <img src="imagem/telapc.jpg" alt="imagem de uma tela de cmputador">
+            </picture>
+        </div>
+
     </main>
+    <footer>
+        <p><em>Site criado por Sadao Mamiya</em> </p>
+    </footer>
 
 </body>
 </html>
