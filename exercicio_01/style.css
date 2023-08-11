@@ -48,16 +48,20 @@ main > p > a{
 }
 
 div.video{
-    position: relative;
-    padding-bottom: 57.5%;
     
+    background-color: aqua; /*azul só para identificar o espaço que ocupa*/
+    margin-bottom: 30px;
+    margin-top: 15px;
+    padding: 20px;
+    position: relative;
+    padding-bottom: 60%; /*regula a altura da div.video*/
 }
 div.video> iframe {
     position: absolute;
-    top: 8%;
-    left: 6%;
+    top: 5%; /*regula a distância do iframe ao topo da div.video*/
+    left: 5%; /*regula a distância do iframe da esquerda da div.video, considerando o padding da div*/
     width: 90%;
-    height: 85%
+    height: 90%;
 
 }
     
