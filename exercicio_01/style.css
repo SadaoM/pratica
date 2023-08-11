@@ -49,7 +49,7 @@ main > p > a{
 
 div.video{
     
-    background-color: aqua; /*azul só para identificar o espaço que ocupa*/
+    /*background-color: aqua;*/ /*azul só para identificar o espaço que ocupa*/
     margin-bottom: 30px;
     margin-top: 15px;
     padding: 20px;
