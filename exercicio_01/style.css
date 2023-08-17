@@ -21,6 +21,16 @@ header > h1 {
 header > p {
     padding: 10px;
 }
+nav {
+    background-color: aqua;
+    min-height: 18px;
+    text-align: center;
+    padding: 7px;
+}
+.nav>a {
+    background-color: burlywood;
+    padding: 0px 20px;
+}
 main{
     min-width: 280px;
     max-width: 800px;
